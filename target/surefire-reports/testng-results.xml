@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-20T17:40:04 IST" name="Suite" finished-at="2024-07-20T17:40:34 IST" duration-ms="29860">
+  <suite started-at="2024-08-17T14:21:24 IST" name="Suite" finished-at="2024-08-17T14:22:08 IST" duration-ms="43807">
     <groups>
     </groups>
-    <test started-at="2024-07-20T17:40:04 IST" name="Negative Login Test" finished-at="2024-07-20T17:40:34 IST" duration-ms="29860">
+    <test started-at="2024-08-17T14:21:24 IST" name="Negative Login Test" finished-at="2024-08-17T14:22:08 IST" duration-ms="43807">
       <class name="Tests.LoginTest">
-        <test-method is-config="true" signature="lauchBrowser(java.lang.String)[pri:0, instance:Tests.LoginTest@75437611]" started-at="2024-07-20T17:40:04 IST" name="lauchBrowser" finished-at="2024-07-20T17:40:11 IST" duration-ms="7310" status="PASS">
+        <test-method is-config="true" signature="lauchBrowser(java.lang.String)[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:24 IST" name="lauchBrowser" finished-at="2024-08-17T14:21:29 IST" duration-ms="4529" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,16 +18,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method signature="testInvalidLogins(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@75437611]" started-at="2024-07-20T17:40:11 IST" name="testInvalidLogins" description="Negative login tests" data-provider="loginData" finished-at="2024-07-20T17:40:18 IST" duration-ms="6795" status="PASS">
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:29 IST" name="InvalidLogin" data-provider="loginData" finished-at="2024-08-17T14:21:35 IST" duration-ms="5699" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[xCUyp5]]>
+                <![CDATA[bxVIBBmJn1]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[xBgZV]]>
+                <![CDATA[HPewt4t]]>
               </value>
             </param>
             <param index="2">
@@ -38,12 +38,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInvalidLogins -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:Tests.LoginTest@75437611]" started-at="2024-07-20T17:40:18 IST" name="tear" finished-at="2024-07-20T17:40:19 IST" duration-ms="410" status="PASS">
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:36 IST" name="teardown" finished-at="2024-08-17T14:21:36 IST" duration-ms="397" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tear -->
-        <test-method is-config="true" signature="lauchBrowser(java.lang.String)[pri:0, instance:Tests.LoginTest@75437611]" started-at="2024-07-20T17:40:19 IST" name="lauchBrowser" finished-at="2024-07-20T17:40:22 IST" duration-ms="3061" status="PASS">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="lauchBrowser(java.lang.String)[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:36 IST" name="lauchBrowser" finished-at="2024-08-17T14:21:39 IST" duration-ms="3267" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -54,16 +54,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method signature="testInvalidLogins(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@75437611]" started-at="2024-07-20T17:40:22 IST" name="testInvalidLogins" description="Negative login tests" data-provider="loginData" finished-at="2024-07-20T17:40:27 IST" duration-ms="5110" status="PASS">
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:39 IST" name="InvalidLogin" data-provider="loginData" finished-at="2024-08-17T14:21:45 IST" duration-ms="5829" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[xCUyp5]]>
+                <![CDATA[QtxsI4]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[xBgZV]]>
+                <![CDATA[GRMgzhHNVXZJ0bzWcvRJ]]>
               </value>
             </param>
             <param index="2">
@@ -74,12 +74,12 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInvalidLogins -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:Tests.LoginTest@75437611]" started-at="2024-07-20T17:40:27 IST" name="tear" finished-at="2024-07-20T17:40:28 IST" duration-ms="258" status="PASS">
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:46 IST" name="teardown" finished-at="2024-08-17T14:21:47 IST" duration-ms="455" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tear -->
-        <test-method is-config="true" signature="lauchBrowser(java.lang.String)[pri:0, instance:Tests.LoginTest@75437611]" started-at="2024-07-20T17:40:28 IST" name="lauchBrowser" finished-at="2024-07-20T17:40:30 IST" duration-ms="2395" status="PASS">
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="lauchBrowser(java.lang.String)[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:47 IST" name="lauchBrowser" finished-at="2024-08-17T14:21:53 IST" duration-ms="6258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -90,16 +90,16 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lauchBrowser -->
-        <test-method signature="testInvalidLogins(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@75437611]" started-at="2024-07-20T17:40:30 IST" name="testInvalidLogins" description="Negative login tests" data-provider="loginData" finished-at="2024-07-20T17:40:33 IST" duration-ms="3133" status="PASS">
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:53 IST" name="InvalidLogin" data-provider="loginData" finished-at="2024-08-17T14:21:58 IST" duration-ms="5009" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[xCUyp5]]>
+                <![CDATA[ySMUMRoO0vLb]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[xBgZV]]>
+                <![CDATA[   ]]>
               </value>
             </param>
             <param index="2">
@@ -110,11 +110,47 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testInvalidLogins -->
-        <test-method is-config="true" signature="tear()[pri:0, instance:Tests.LoginTest@75437611]" started-at="2024-07-20T17:40:34 IST" name="tear" finished-at="2024-07-20T17:40:34 IST" duration-ms="229" status="PASS">
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:59 IST" name="teardown" finished-at="2024-08-17T14:21:59 IST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tear -->
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="lauchBrowser(java.lang.String)[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:21:59 IST" name="lauchBrowser" finished-at="2024-08-17T14:22:01 IST" duration-ms="2090" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method signature="InvalidLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:22:01 IST" name="InvalidLogin" data-provider="loginData" finished-at="2024-08-17T14:22:06 IST" duration-ms="5046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[JueuXHRgtne]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Q8nhp]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[english]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Tests.LoginTest@76a4ebf2]" started-at="2024-08-17T14:22:07 IST" name="teardown" finished-at="2024-08-17T14:22:08 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- Tests.LoginTest -->
     </test> <!-- Negative Login Test -->
   </suite> <!-- Suite -->
